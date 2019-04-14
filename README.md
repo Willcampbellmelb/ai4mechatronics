@@ -7,3 +7,6 @@ Uni melb class investigating Deep learning applications
 
 ## running tensorflow with anaconda
 
+## Ressources
+
+[Dimensionality Reduction](http://colah.github.io/posts/2014-10-Visualizing-MNIST/)
