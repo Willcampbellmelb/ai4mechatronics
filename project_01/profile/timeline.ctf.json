@@ -1,0 +1,2269 @@
+{
+    "traceEvents": [
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 0,
+            "args": {
+                "name": "Allocators"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 1,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 2,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Tensors"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "NoOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302479,
+            "dur": 25,
+            "args": {
+                "name": "_SOURCE",
+                "op": "NoOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302521,
+            "dur": 26,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/x",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302554,
+            "dur": 24,
+            "args": {
+                "name": "Const",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302590,
+            "dur": 22,
+            "args": {
+                "name": "loss/dense_1_loss/sub",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302619,
+            "dur": 23,
+            "args": {
+                "name": "loss/dense_1_loss/Const",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302649,
+            "dur": 23,
+            "args": {
+                "name": "loss/dense_1_loss/Reshape/shape",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302678,
+            "dur": 23,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_scalar",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302708,
+            "dur": 22,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/is_same_rank",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302737,
+            "dur": 23,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/dim",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302767,
+            "dur": 24,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ones_like",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302798,
+            "dur": 22,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/concat/axis",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302827,
+            "dur": 23,
+            "args": {
+                "name": "loss/dense_1_loss/zeros_like",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VarHandleOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302856,
+            "dur": 23,
+            "args": {
+                "name": "conv2d/kernel",
+                "op": "VarHandleOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VarHandleOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302895,
+            "dur": 22,
+            "args": {
+                "name": "conv2d/bias",
+                "op": "VarHandleOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VarHandleOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302934,
+            "dur": 35,
+            "args": {
+                "name": "conv2d_1/kernel",
+                "op": "VarHandleOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ReadVariableOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727302942,
+            "dur": 41,
+            "args": {
+                "name": "conv2d/BiasAdd/ReadVariableOp",
+                "op": "ReadVariableOp",
+                "input0": "conv2d/bias"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "conv2d/bias",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302917,
+            "id": 0
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "conv2d/bias",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727302942,
+            "id": 0
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ReadVariableOp",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555310727302941,
+            "dur": 44,
+            "args": {
+                "name": "conv2d/Conv2D/ReadVariableOp",
+                "op": "ReadVariableOp",
+                "input0": "conv2d/kernel"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "conv2d/kernel",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302879,
+            "id": 1
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "conv2d/kernel",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555310727302941,
+            "id": 1
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VarHandleOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302991,
+            "dur": 33,
+            "args": {
+                "name": "conv2d_1/bias",
+                "op": "VarHandleOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ReadVariableOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303001,
+            "dur": 34,
+            "args": {
+                "name": "conv2d_1/Conv2D/ReadVariableOp",
+                "op": "ReadVariableOp",
+                "input0": "conv2d_1/kernel"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "conv2d_1/kernel",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302969,
+            "id": 2
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "conv2d_1/kernel",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303001,
+            "id": 2
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303043,
+            "dur": 32,
+            "args": {
+                "name": "flatten/strided_slice/stack_1",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ReadVariableOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303042,
+            "dur": 33,
+            "args": {
+                "name": "conv2d_1/BiasAdd/ReadVariableOp",
+                "op": "ReadVariableOp",
+                "input0": "conv2d_1/bias"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "conv2d_1/bias",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303024,
+            "id": 3
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "conv2d_1/bias",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303042,
+            "id": 3
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VarHandleOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303084,
+            "dur": 24,
+            "args": {
+                "name": "dense/kernel",
+                "op": "VarHandleOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ReadVariableOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303124,
+            "dur": 33,
+            "args": {
+                "name": "dense/MatMul/ReadVariableOp",
+                "op": "ReadVariableOp",
+                "input0": "dense/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VarHandleOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303125,
+            "dur": 35,
+            "args": {
+                "name": "dense/bias",
+                "op": "VarHandleOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ReadVariableOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303188,
+            "dur": 32,
+            "args": {
+                "name": "dense/BiasAdd/ReadVariableOp",
+                "op": "ReadVariableOp",
+                "input0": "dense/bias"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "dense/bias",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303160,
+            "id": 4
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "dense/bias",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303188,
+            "id": 4
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VarHandleOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303187,
+            "dur": 44,
+            "args": {
+                "name": "dense_1/kernel",
+                "op": "VarHandleOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VarHandleOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303253,
+            "dur": 32,
+            "args": {
+                "name": "dense_1/bias",
+                "op": "VarHandleOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ReadVariableOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303253,
+            "dur": 34,
+            "args": {
+                "name": "dense_1/MatMul/ReadVariableOp",
+                "op": "ReadVariableOp",
+                "input0": "dense_1/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303304,
+            "dur": 28,
+            "args": {
+                "name": "loss/dense_1_loss/Const_1",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ReadVariableOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303306,
+            "dur": 38,
+            "args": {
+                "name": "dense_1/BiasAdd/ReadVariableOp",
+                "op": "ReadVariableOp",
+                "input0": "dense_1/bias"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "dense_1/bias",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303285,
+            "id": 5
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "dense_1/bias",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303306,
+            "id": 5
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Arg",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303340,
+            "dur": 27,
+            "args": {
+                "name": "_arg_conv2d_input_0_0",
+                "op": "_Arg"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Arg",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303379,
+            "dur": 24,
+            "args": {
+                "name": "_arg_dense_1_target_0_1",
+                "op": "_Arg"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "PlaceholderWithDefault",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303418,
+            "dur": 23,
+            "args": {
+                "name": "dense_1_sample_weights",
+                "op": "PlaceholderWithDefault",
+                "input0": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303454,
+            "dur": 27,
+            "args": {
+                "name": "DMT/_1",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Max",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303467,
+            "dur": 45,
+            "args": {
+                "name": "metrics/acc/Max",
+                "op": "Max",
+                "input0": "_arg_dense_1_target_0_1",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/dim"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "_arg_dense_1_target_0_1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303403,
+            "id": 6
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "_arg_dense_1_target_0_1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303467,
+            "id": 6
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/dim",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302760,
+            "id": 7
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/dim",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303467,
+            "id": 7
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303497,
+            "dur": 29,
+            "args": {
+                "name": "DMT/_8",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303533,
+            "dur": 23,
+            "args": {
+                "name": "DMT/_9",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303574,
+            "dur": 36,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/weights/shape",
+                "op": "Const",
+                "input0": "^dense_1_sample_weights"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklReshape",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303572,
+            "dur": 61,
+            "args": {
+                "name": "loss/dense_1_loss/Reshape",
+                "op": "_MklReshape",
+                "input0": "_arg_dense_1_target_0_1",
+                "input1": "loss/dense_1_loss/Reshape/shape",
+                "input2": "DMT/_8",
+                "input3": "DMT/_9"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "_arg_dense_1_target_0_1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303403,
+            "id": 8
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "_arg_dense_1_target_0_1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303572,
+            "id": 8
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Reshape/shape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302672,
+            "id": 9
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Reshape/shape",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303572,
+            "id": 9
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "DMT/_8",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303526,
+            "id": 10
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "DMT/_8",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303572,
+            "id": 10
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "DMT/_9",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303556,
+            "id": 11
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "DMT/_9",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303572,
+            "id": 11
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303621,
+            "dur": 35,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims_1",
+                "op": "Const",
+                "input0": "^dense_1_sample_weights"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklToTf",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303658,
+            "dur": 44,
+            "args": {
+                "name": "Mkl2Tf/_15",
+                "op": "_MklToTf",
+                "input0": "loss/dense_1_loss/Reshape",
+                "input1": "loss/dense_1_loss/Reshape:1"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Reshape",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303633,
+            "id": 12
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Reshape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303658,
+            "id": 12
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Reshape:1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303633,
+            "id": 13
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Reshape:1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303658,
+            "id": 13
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Cast",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303716,
+            "dur": 37,
+            "args": {
+                "name": "loss/dense_1_loss/Cast",
+                "op": "Cast",
+                "input0": "loss/dense_1_loss/Reshape"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Reshape",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303633,
+            "id": 14
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Reshape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303716,
+            "id": 14
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2DWithBias",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555310727303506,
+            "dur": 494,
+            "args": {
+                "name": "conv2d/BiasAdd",
+                "op": "_MklConv2DWithBias",
+                "input0": "_arg_conv2d_input_0_0",
+                "input1": "conv2d/Conv2D/ReadVariableOp",
+                "input2": "conv2d/BiasAdd/ReadVariableOp",
+                "input3": "DMT/_0",
+                "input4": "DMT/_1",
+                "input5": "DMT/_2"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "_arg_conv2d_input_0_0",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303367,
+            "id": 15
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "_arg_conv2d_input_0_0",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555310727303506,
+            "id": 15
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "conv2d/BiasAdd/ReadVariableOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727302983,
+            "id": 16
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "conv2d/BiasAdd/ReadVariableOp",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555310727303506,
+            "id": 16
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "DMT/_1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303481,
+            "id": 17
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "DMT/_1",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555310727303506,
+            "id": 17
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727304019,
+            "dur": 223,
+            "args": {
+                "name": "conv2d/Relu",
+                "op": "_MklRelu",
+                "input0": "conv2d/BiasAdd",
+                "input1": "conv2d/BiasAdd:2"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "conv2d/BiasAdd",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555310727304000,
+            "id": 18
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "conv2d/BiasAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727304019,
+            "id": 18
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "conv2d/BiasAdd:2",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555310727304000,
+            "id": 19
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "conv2d/BiasAdd:2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727304019,
+            "id": 19
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklMaxPool",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727304255,
+            "dur": 398,
+            "args": {
+                "name": "max_pooling2d/MaxPool",
+                "op": "_MklMaxPool",
+                "input0": "conv2d/Relu",
+                "input1": "conv2d/Relu:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727304670,
+            "dur": 26,
+            "args": {
+                "name": "DMT/_3",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727304703,
+            "dur": 24,
+            "args": {
+                "name": "DMT/_4",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2DWithBias",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727304738,
+            "dur": 2615,
+            "args": {
+                "name": "conv2d_1/BiasAdd",
+                "op": "_MklConv2DWithBias",
+                "input0": "max_pooling2d/MaxPool",
+                "input1": "conv2d_1/Conv2D/ReadVariableOp",
+                "input2": "conv2d_1/BiasAdd/ReadVariableOp",
+                "input3": "max_pooling2d/MaxPool:2",
+                "input4": "DMT/_3",
+                "input5": "DMT/_4"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "conv2d_1/Conv2D/ReadVariableOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303035,
+            "id": 20
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "conv2d_1/Conv2D/ReadVariableOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727304738,
+            "id": 20
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "conv2d_1/BiasAdd/ReadVariableOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303075,
+            "id": 21
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "conv2d_1/BiasAdd/ReadVariableOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727304738,
+            "id": 21
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727307370,
+            "dur": 129,
+            "args": {
+                "name": "conv2d_1/Relu",
+                "op": "_MklRelu",
+                "input0": "conv2d_1/BiasAdd",
+                "input1": "conv2d_1/BiasAdd:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklMaxPool",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727307513,
+            "dur": 277,
+            "args": {
+                "name": "max_pooling2d_1/MaxPool",
+                "op": "_MklMaxPool",
+                "input0": "conv2d_1/Relu",
+                "input1": "conv2d_1/Relu:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727307813,
+            "dur": 26,
+            "args": {
+                "name": "DMT/_5",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklToTf",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727307848,
+            "dur": 89,
+            "args": {
+                "name": "Mkl2Tf/_10",
+                "op": "_MklToTf",
+                "input0": "max_pooling2d_1/MaxPool",
+                "input1": "max_pooling2d_1/MaxPool:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Shape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727307956,
+            "dur": 53,
+            "args": {
+                "name": "flatten/Shape",
+                "op": "Shape",
+                "input0": "max_pooling2d_1/MaxPool"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "StridedSlice",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308023,
+            "dur": 49,
+            "args": {
+                "name": "flatten/strided_slice",
+                "op": "StridedSlice",
+                "input0": "flatten/Shape",
+                "input1": "loss/dense_1_loss/Const_1",
+                "input2": "flatten/strided_slice/stack_1",
+                "input3": "flatten/strided_slice/stack_1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Pack",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308086,
+            "dur": 45,
+            "args": {
+                "name": "flatten/Reshape/shape",
+                "op": "Pack",
+                "input0": "flatten/strided_slice",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/dim"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklReshape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308144,
+            "dur": 126,
+            "args": {
+                "name": "flatten/Reshape",
+                "op": "_MklReshape",
+                "input0": "max_pooling2d_1/MaxPool",
+                "input1": "flatten/Reshape/shape",
+                "input2": "max_pooling2d_1/MaxPool:2",
+                "input3": "DMT/_5"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklToTf",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308296,
+            "dur": 39,
+            "args": {
+                "name": "Mkl2Tf/_11",
+                "op": "_MklToTf",
+                "input0": "flatten/Reshape",
+                "input1": "flatten/Reshape:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308349,
+            "dur": 310,
+            "args": {
+                "name": "dense/MatMul",
+                "op": "MatMul",
+                "input0": "flatten/Reshape",
+                "input1": "dense/MatMul/ReadVariableOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308673,
+            "dur": 57,
+            "args": {
+                "name": "dense/BiasAdd",
+                "op": "BiasAdd",
+                "input0": "dense/MatMul",
+                "input1": "dense/BiasAdd/ReadVariableOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308744,
+            "dur": 26,
+            "args": {
+                "name": "DMT/_6",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308781,
+            "dur": 53,
+            "args": {
+                "name": "dense/Relu",
+                "op": "_MklRelu",
+                "input0": "dense/BiasAdd",
+                "input1": "DMT/_6"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklToTf",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308847,
+            "dur": 33,
+            "args": {
+                "name": "Mkl2Tf/_12",
+                "op": "_MklToTf",
+                "input0": "dense/Relu",
+                "input1": "dense/Relu:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308892,
+            "dur": 47,
+            "args": {
+                "name": "dense_1/MatMul",
+                "op": "MatMul",
+                "input0": "dense/Relu",
+                "input1": "dense_1/MatMul/ReadVariableOp"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "dense_1/MatMul/ReadVariableOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303287,
+            "id": 22
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "dense_1/MatMul/ReadVariableOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308892,
+            "id": 22
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308952,
+            "dur": 32,
+            "args": {
+                "name": "dense_1/BiasAdd",
+                "op": "BiasAdd",
+                "input0": "dense_1/MatMul",
+                "input1": "dense_1/BiasAdd/ReadVariableOp"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "dense_1/BiasAdd/ReadVariableOp",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727303344,
+            "id": 23
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "dense_1/BiasAdd/ReadVariableOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308952,
+            "id": 23
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727308997,
+            "dur": 25,
+            "args": {
+                "name": "DMT/_7",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklSoftmax",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309035,
+            "dur": 92,
+            "args": {
+                "name": "dense_1/Softmax",
+                "op": "_MklSoftmax",
+                "input0": "dense_1/BiasAdd",
+                "input1": "DMT/_7"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklToTf",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309141,
+            "dur": 32,
+            "args": {
+                "name": "Mkl2Tf/_13",
+                "op": "_MklToTf",
+                "input0": "dense_1/Softmax",
+                "input1": "dense_1/Softmax:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309192,
+            "dur": 58,
+            "args": {
+                "name": "metrics/acc/ArgMax",
+                "op": "ArgMax",
+                "input0": "dense_1/Softmax",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/dim"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Minimum",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309201,
+            "dur": 65,
+            "args": {
+                "name": "loss/dense_1_loss/clip_by_value/Minimum",
+                "op": "Minimum",
+                "input0": "dense_1/Softmax",
+                "input1": "loss/dense_1_loss/sub"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "dense_1/Softmax",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309127,
+            "id": 24
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "dense_1/Softmax",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309201,
+            "id": 24
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/sub",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302612,
+            "id": 25
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/sub",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309201,
+            "id": 25
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Cast",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309267,
+            "dur": 55,
+            "args": {
+                "name": "metrics/acc/Cast",
+                "op": "Cast",
+                "input0": "metrics/acc/ArgMax"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Maximum",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309283,
+            "dur": 41,
+            "args": {
+                "name": "loss/dense_1_loss/clip_by_value",
+                "op": "Maximum",
+                "input0": "loss/dense_1_loss/clip_by_value/Minimum",
+                "input1": "loss/dense_1_loss/Const"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302642,
+            "id": 26
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Const",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309283,
+            "id": 26
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Log",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309341,
+            "dur": 47,
+            "args": {
+                "name": "loss/dense_1_loss/Log",
+                "op": "Log",
+                "input0": "loss/dense_1_loss/clip_by_value"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/clip_by_value",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309324,
+            "id": 27
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/clip_by_value",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309341,
+            "id": 27
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Equal",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309339,
+            "dur": 57,
+            "args": {
+                "name": "metrics/acc/Equal",
+                "op": "Equal",
+                "input0": "metrics/acc/Max",
+                "input1": "metrics/acc/Cast"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "metrics/acc/Cast",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309322,
+            "id": 28
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "metrics/acc/Cast",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309339,
+            "id": 28
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Cast",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309412,
+            "dur": 54,
+            "args": {
+                "name": "metrics/acc/Cast_1",
+                "op": "Cast",
+                "input0": "metrics/acc/Equal"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "metrics/acc/Equal",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309396,
+            "id": 29
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "metrics/acc/Equal",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309412,
+            "id": 29
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mean",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309483,
+            "dur": 61,
+            "args": {
+                "name": "metrics/acc/Mean",
+                "op": "Mean",
+                "input0": "metrics/acc/Cast_1",
+                "input1": "loss/dense_1_loss/Const_1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "SparseSoftmaxCrossEntropyWithLogits",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309405,
+            "dur": 151,
+            "args": {
+                "name": "loss/dense_1_loss/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits",
+                "op": "SparseSoftmaxCrossEntropyWithLogits",
+                "input0": "loss/dense_1_loss/Log",
+                "input1": "loss/dense_1_loss/Cast"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Log",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309388,
+            "id": 30
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Log",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309405,
+            "id": 30
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Cast",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303753,
+            "id": 31
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Cast",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309405,
+            "id": 31
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Retval",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309562,
+            "dur": 29,
+            "args": {
+                "name": "_retval_metrics/acc/Mean_0_1",
+                "op": "_Retval",
+                "input0": "metrics/acc/Mean"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Shape",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309573,
+            "dur": 42,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/values/shape",
+                "op": "Shape",
+                "input0": "loss/dense_1_loss/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Switch",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309628,
+            "dur": 50,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/Switch",
+                "op": "Switch",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/values/shape",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_scalar"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/values/shape",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309615,
+            "id": 32
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/values/shape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309628,
+            "id": 32
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Switch",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309698,
+            "dur": 31,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/Switch_1",
+                "op": "Switch",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/Switch",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/is_same_rank"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ExpandDims",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309743,
+            "dur": 31,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims",
+                "op": "ExpandDims",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/Switch_1:1",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims/dim"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ConcatV2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309788,
+            "dur": 40,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/concat",
+                "op": "ConcatV2",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ones_like",
+                "input2": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/concat/axis"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "DenseToDenseSetOperation",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309843,
+            "dur": 56,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/DenseToDenseSetOperation",
+                "op": "DenseToDenseSetOperation",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/ExpandDims_1",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/concat"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Size",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309913,
+            "dur": 33,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/num_invalid_dims",
+                "op": "Size",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/DenseToDenseSetOperation:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Equal",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727309959,
+            "dur": 43,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims",
+                "op": "Equal",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/x",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims/num_invalid_dims"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Switch",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310016,
+            "dur": 25,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/Assert/Switch",
+                "op": "Switch",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Switch",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310054,
+            "dur": 24,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/Assert/Switch_1",
+                "op": "Switch",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/weights/shape",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Switch",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310086,
+            "dur": 30,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/Assert/Switch_2",
+                "op": "Switch",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/values/shape",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/values/shape",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309615,
+            "id": 33
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/values/shape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310086,
+            "id": 33
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Switch",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310124,
+            "dur": 23,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/Assert/Switch_3",
+                "op": "Switch",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_scalar",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/is_valid_shape/has_valid_nonscalar_shape/has_invalid_dims"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310161,
+            "dur": 30,
+            "args": {
+                "name": "ConstantFoldingCtrl/loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/Switch_1",
+                "op": "Identity",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/Switch:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310211,
+            "dur": 24,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/control_dependency",
+                "op": "Const",
+                "input0": "^ConstantFoldingCtrl/loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/Switch_1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Merge",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310253,
+            "dur": 38,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/Merge",
+                "op": "Merge",
+                "input0": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/control_dependency_1",
+                "input1": "loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/control_dependency"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Shape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310305,
+            "dur": 33,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/ones_like/Shape",
+                "op": "Shape",
+                "input0": "loss/dense_1_loss/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits",
+                "input1": "^loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/Merge"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309556,
+            "id": 34
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310305,
+            "id": 34
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310346,
+            "dur": 25,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/ones_like/Const",
+                "op": "Const",
+                "input0": "^loss/dense_1_loss/broadcast_weights/assert_broadcastable/AssertGuard/Merge"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Fill",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310383,
+            "dur": 42,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights/ones_like",
+                "op": "Fill",
+                "input0": "loss/dense_1_loss/broadcast_weights/ones_like/Shape",
+                "input1": "loss/dense_1_loss/broadcast_weights/ones_like/Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310438,
+            "dur": 32,
+            "args": {
+                "name": "loss/dense_1_loss/broadcast_weights",
+                "op": "Mul",
+                "input0": "dense_1_sample_weights",
+                "input1": "loss/dense_1_loss/broadcast_weights/ones_like"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310492,
+            "dur": 35,
+            "args": {
+                "name": "loss/dense_1_loss/Mul",
+                "op": "Mul",
+                "input0": "loss/dense_1_loss/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits",
+                "input1": "loss/dense_1_loss/broadcast_weights"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727309556,
+            "id": 35
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310492,
+            "id": 35
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Sum",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310541,
+            "dur": 48,
+            "args": {
+                "name": "loss/dense_1_loss/Sum",
+                "op": "Sum",
+                "input0": "loss/dense_1_loss/Mul",
+                "input1": "loss/dense_1_loss/Const_1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Sum",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727310488,
+            "dur": 125,
+            "args": {
+                "name": "loss/dense_1_loss/Sum_1",
+                "op": "Sum",
+                "input0": "loss/dense_1_loss/broadcast_weights",
+                "input1": "loss/dense_1_loss/Const_1"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/broadcast_weights",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310470,
+            "id": 36
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/broadcast_weights",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727310488,
+            "id": 36
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Const_1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727303332,
+            "id": 37
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Const_1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727310488,
+            "id": 37
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RealDiv",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310601,
+            "dur": 31,
+            "args": {
+                "name": "loss/dense_1_loss/truediv",
+                "op": "RealDiv",
+                "input0": "loss/dense_1_loss/Sum",
+                "input1": "loss/dense_1_loss/Sum_1"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Sum_1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727310613,
+            "id": 38
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Sum_1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310601,
+            "id": 38
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Greater",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727310629,
+            "dur": 126,
+            "args": {
+                "name": "loss/dense_1_loss/Greater",
+                "op": "Greater",
+                "input0": "loss/dense_1_loss/Sum_1",
+                "input1": "loss/dense_1_loss/zeros_like"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/zeros_like",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727302850,
+            "id": 39
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/zeros_like",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727310629,
+            "id": 39
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Select",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310772,
+            "dur": 36,
+            "args": {
+                "name": "loss/dense_1_loss/Select",
+                "op": "Select",
+                "input0": "loss/dense_1_loss/Greater",
+                "input1": "loss/dense_1_loss/truediv",
+                "input2": "loss/dense_1_loss/zeros_like"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Greater",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555310727310755,
+            "id": 40
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "loss/dense_1_loss/Greater",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310772,
+            "id": 40
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310821,
+            "dur": 24,
+            "args": {
+                "name": "loss/mul",
+                "op": "Identity",
+                "input0": "loss/dense_1_loss/Select"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "NoOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310858,
+            "dur": 21,
+            "args": {
+                "name": "group_deps",
+                "op": "NoOp",
+                "input0": "^loss/mul",
+                "input1": "^metrics/acc/Mean"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Retval",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555310727310886,
+            "dur": 25,
+            "args": {
+                "name": "_retval_loss/mul_0_0",
+                "op": "_Retval",
+                "input0": "loss/mul"
+            }
+        }
+    ]
+}
