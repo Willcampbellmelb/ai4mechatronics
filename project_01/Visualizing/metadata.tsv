@@ -1,0 +1,401 @@
+Index	Label
+0	T-shirt/top
+1	Trouser
+2	Pullover
+3	Pullover
+4	Dress
+5	Pullover
+6	Bag
+7	Shirt
+8	Sandal
+9	T-shirt/top
+10	Dress
+11	Coat
+12	Coat
+13	Shirt
+14	Bag
+15	Sandal
+16	Shirt
+17	Dress
+18	Shirt
+19	Coat
+20	Coat
+21	Coat
+22	Pullover
+23	Trouser
+24	Sandal
+25	Sneaker
+26	Bag
+27	Coat
+28	Coat
+29	Trouser
+30	Sandal
+31	Sneaker
+32	Sneaker
+33	Bag
+34	Trouser
+35	T-shirt/top
+36	Ankle boot
+37	Bag
+38	T-shirt/top
+39	Bag
+40	Pullover
+41	T-shirt/top
+42	Coat
+43	Shirt
+44	Pullover
+45	T-shirt/top
+46	Dress
+47	Dress
+48	Pullover
+49	Dress
+50	Pullover
+51	Pullover
+52	Ankle boot
+53	Dress
+54	T-shirt/top
+55	Ankle boot
+56	Ankle boot
+57	Coat
+58	Shirt
+59	T-shirt/top
+60	Coat
+61	Sandal
+62	Coat
+63	Shirt
+64	Trouser
+65	Trouser
+66	T-shirt/top
+67	Ankle boot
+68	Sandal
+69	Pullover
+70	Sneaker
+71	Dress
+72	Coat
+73	Shirt
+74	Sandal
+75	Sneaker
+76	Trouser
+77	Shirt
+78	Trouser
+79	Coat
+80	Ankle boot
+81	Bag
+82	Trouser
+83	Pullover
+84	Coat
+85	Bag
+86	Ankle boot
+87	Coat
+88	Trouser
+89	Shirt
+90	Dress
+91	Coat
+92	Pullover
+93	Pullover
+94	Pullover
+95	Shirt
+96	Coat
+97	Sneaker
+98	Sneaker
+99	Dress
+100	Ankle boot
+101	Dress
+102	Ankle boot
+103	T-shirt/top
+104	Bag
+105	Pullover
+106	Dress
+107	Bag
+108	Pullover
+109	Sneaker
+110	Sandal
+111	Sandal
+112	Dress
+113	Pullover
+114	Sneaker
+115	Sandal
+116	T-shirt/top
+117	Pullover
+118	Sneaker
+119	Trouser
+120	T-shirt/top
+121	Sandal
+122	Coat
+123	Coat
+124	Sneaker
+125	T-shirt/top
+126	Bag
+127	Sandal
+128	T-shirt/top
+129	Dress
+130	Trouser
+131	Sneaker
+132	Ankle boot
+133	Coat
+134	Ankle boot
+135	Shirt
+136	Coat
+137	Coat
+138	Pullover
+139	Coat
+140	Dress
+141	Dress
+142	Dress
+143	Pullover
+144	Pullover
+145	Shirt
+146	T-shirt/top
+147	T-shirt/top
+148	Trouser
+149	Dress
+150	Coat
+151	Dress
+152	Dress
+153	Trouser
+154	Ankle boot
+155	Dress
+156	Dress
+157	Dress
+158	Ankle boot
+159	Sandal
+160	Shirt
+161	Sneaker
+162	Sneaker
+163	Dress
+164	Pullover
+165	Coat
+166	T-shirt/top
+167	Bag
+168	Sneaker
+169	Pullover
+170	Pullover
+171	Bag
+172	Ankle boot
+173	T-shirt/top
+174	Pullover
+175	Coat
+176	Coat
+177	Sandal
+178	Sneaker
+179	Ankle boot
+180	Ankle boot
+181	Trouser
+182	Dress
+183	Ankle boot
+184	Trouser
+185	Sandal
+186	Sandal
+187	Shirt
+188	T-shirt/top
+189	Sneaker
+190	Coat
+191	Ankle boot
+192	Trouser
+193	Shirt
+194	T-shirt/top
+195	T-shirt/top
+196	T-shirt/top
+197	Coat
+198	T-shirt/top
+199	Ankle boot
+200	T-shirt/top
+201	Coat
+202	Pullover
+203	Sandal
+204	Sandal
+205	Bag
+206	Shirt
+207	Pullover
+208	Trouser
+209	Ankle boot
+210	T-shirt/top
+211	Coat
+212	Sneaker
+213	Trouser
+214	Ankle boot
+215	Sandal
+216	Ankle boot
+217	T-shirt/top
+218	Pullover
+219	Bag
+220	Sandal
+221	Sneaker
+222	Sneaker
+223	Dress
+224	Pullover
+225	Coat
+226	Sandal
+227	Sneaker
+228	Bag
+229	Trouser
+230	Ankle boot
+231	Sandal
+232	Shirt
+233	Pullover
+234	Ankle boot
+235	Sneaker
+236	Coat
+237	T-shirt/top
+238	Ankle boot
+239	Pullover
+240	Trouser
+241	Sandal
+242	Sneaker
+243	Sneaker
+244	T-shirt/top
+245	Pullover
+246	Coat
+247	Sandal
+248	Dress
+249	Dress
+250	Bag
+251	Trouser
+252	Shirt
+253	Pullover
+254	Coat
+255	Bag
+256	Shirt
+257	Ankle boot
+258	Bag
+259	Dress
+260	Dress
+261	Pullover
+262	Coat
+263	Pullover
+264	Pullover
+265	Ankle boot
+266	Dress
+267	Ankle boot
+268	Pullover
+269	Bag
+270	Shirt
+271	Bag
+272	Bag
+273	Pullover
+274	Sneaker
+275	Pullover
+276	Sandal
+277	Sandal
+278	Ankle boot
+279	Sandal
+280	Bag
+281	Pullover
+282	Coat
+283	Bag
+284	Coat
+285	Bag
+286	Dress
+287	Trouser
+288	Pullover
+289	Pullover
+290	Pullover
+291	Trouser
+292	Bag
+293	Trouser
+294	Dress
+295	Dress
+296	Coat
+297	Trouser
+298	Sneaker
+299	T-shirt/top
+300	Sandal
+301	Pullover
+302	T-shirt/top
+303	Sneaker
+304	Shirt
+305	Shirt
+306	Sneaker
+307	Coat
+308	Sneaker
+309	Sneaker
+310	Trouser
+311	Shirt
+312	Shirt
+313	Shirt
+314	Sneaker
+315	Bag
+316	Sneaker
+317	T-shirt/top
+318	Ankle boot
+319	Pullover
+320	T-shirt/top
+321	Pullover
+322	Sandal
+323	T-shirt/top
+324	Bag
+325	Sandal
+326	Bag
+327	Sneaker
+328	Sneaker
+329	Coat
+330	Trouser
+331	Pullover
+332	Ankle boot
+333	Sneaker
+334	Shirt
+335	T-shirt/top
+336	Trouser
+337	Shirt
+338	Dress
+339	Bag
+340	Shirt
+341	Sandal
+342	Sandal
+343	T-shirt/top
+344	Ankle boot
+345	Pullover
+346	Ankle boot
+347	Bag
+348	T-shirt/top
+349	Shirt
+350	Ankle boot
+351	Shirt
+352	Coat
+353	Dress
+354	Shirt
+355	Shirt
+356	Shirt
+357	Bag
+358	Sandal
+359	Ankle boot
+360	Sandal
+361	Trouser
+362	Pullover
+363	T-shirt/top
+364	Sneaker
+365	Trouser
+366	Pullover
+367	Sneaker
+368	Sandal
+369	Ankle boot
+370	Shirt
+371	Pullover
+372	T-shirt/top
+373	Pullover
+374	Pullover
+375	Shirt
+376	Shirt
+377	Sneaker
+378	Pullover
+379	Ankle boot
+380	Bag
+381	Dress
+382	Ankle boot
+383	Sneaker
+384	Sandal
+385	Trouser
+386	Coat
+387	Pullover
+388	Ankle boot
+389	Sandal
+390	Sandal
+391	T-shirt/top
+392	Dress
+393	Coat
+394	Sneaker
+395	Coat
+396	Shirt
+397	Coat
+398	T-shirt/top
+399	Sandal

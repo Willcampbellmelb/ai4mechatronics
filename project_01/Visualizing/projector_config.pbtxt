@@ -1,0 +1,9 @@
+embeddings {
+  tensor_name: "fm_embeding:0"
+  metadata_path: "/Users/williamcampbell/Desktop/Final_year/s_01/MCEN90048_Ai_for_MechX/log/metadata.tsv"
+  sprite {
+    image_path: "/Users/williamcampbell/Desktop/Final_year/s_01/MCEN90048_Ai_for_MechX/log/sprite.png"
+    single_image_dim: 28
+    single_image_dim: 28
+  }
+}

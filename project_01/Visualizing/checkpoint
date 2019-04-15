@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/williamcampbell/Desktop/Final_year/s_01/MCEN90048_Ai_for_MechX/log/model.ckpt"
+all_model_checkpoint_paths: "/Users/williamcampbell/Desktop/Final_year/s_01/MCEN90048_Ai_for_MechX/log/model.ckpt"
