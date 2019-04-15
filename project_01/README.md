@@ -1,5 +1,5 @@
 ## Project 1 
-#Basic Task(3%)
+# Basic Task(3%)
 --
 # Tasks
 * Train fully connected OR convolutional nn classifier on the training set and test it on the test MINST set acc(.88~.95)
@@ -12,8 +12,7 @@
 ## Instructions for navigation and running models.
 * Each section (visualization, train and test, profile and additional task) are found in sub dirctories
 * Monitoring files ofr tensor board can be generated and run by the notebook and have been submited with submision.
---
+
 # Bonus(2%)
---
 * Compared 2 gradient methods to initial CNN
 
