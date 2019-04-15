@@ -1,6 +1,6 @@
 ## Project 1 
 # Basic Task(3%)
---
+
 # Tasks
 * Train fully connected OR convolutional nn classifier on the training set and test it on the test MINST set acc(.88~.95)
 * Save trained model to ckpt files and model summ to event files
