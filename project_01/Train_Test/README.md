@@ -7,5 +7,5 @@ Train and test a classification model using a CNN on training and test set.
 
 
 # One testing result
-* Training acc: 94.77% Test loss: 14.50%
-* Testing acc: 88.04 % Test loss: 35.13%
+* Training acc: 0.9477 loss: 0.1450
+* Testing acc: 0.8804  loss: 0.3513
